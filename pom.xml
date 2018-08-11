@@ -8,20 +8,18 @@
         <artifactId>findbugs-maven-plugin</artifactId>
         <version>4.72-SNAPSHOT</version>
       </plugin>
-    </plugins>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-pmd-plugin</artifactId>
-            <version>3.50</version>
-            <configuration>
-                <linkXRef>false</linkXRef>
-                <targetJdk>1.8</targetJdk>
-                <rulesets>
-                    <ruleset>/rulesets/basic.xml</ruleset>
-                </rulesets>
-            </configuration>
-        </plugin>
+      <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-pmd-plugin</artifactId>
+          <version>3.50</version>
+          <configuration>
+              <linkXRef>false</linkXRef>
+              <targetJdk>1.8</targetJdk>
+              <rulesets>
+                  <ruleset>/rulesets/basic.xml</ruleset>
+              </rulesets>
+          </configuration>
+      </plugin>
     </plugins>
   </reporting>
        
